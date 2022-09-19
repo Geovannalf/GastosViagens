@@ -12,7 +12,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="2dp"
-        android:hint="@string/distance" />
+        android:hint="@string/distance"
+        android:inputType="number" />
 
     <TextView
         android:id="@+id/text_total_km"
@@ -27,7 +28,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
-        android:hint="@string/price" />
+        android:hint="@string/price"
+        android:inputType="numberDecimal" />
 
     <TextView
         android:id="@+id/text_price_per_liter"
@@ -42,7 +44,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
-        android:hint="@string/autonomy" />
+        android:hint="@string/autonomy"
+        android:inputType="numberDecimal" />
 
     <TextView
         android:id="@+id/text_kms_per_liter"
